@@ -1,0 +1,30 @@
+# dyrobot 配置文件示例
+# 复制此文件为 config.yaml 并填写你的实际配置
+
+deepseek:
+  api_key: sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  # 替换为你的DeepSeek API密钥
+  model: deepseek-v4-flash
+  max_tokens: 2048
+  temperature: 0.5
+
+bot:
+  name: 小助手  # 修改为你的机器人名称
+  trigger_mode: mention
+  reply_cooldown: 2.0
+  character: default
+  characters_dir: characters
+  skills_dir: skills
+
+groups:
+- name: 示例群组1  # 修改为你的实际群组名称
+  url: https://www.douyin.com/chat?isPopup=1
+- name: 示例群组2  # 修改为你的实际群组名称
+  url: https://www.douyin.com/chat?isPopup=1
+
+context:
+  max_history_rounds: 20
+  session_timeout: 1800
+
+browser:
+  headless: false
+  slow_mo: 100

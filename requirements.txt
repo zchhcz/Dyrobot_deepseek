@@ -1,0 +1,4 @@
+playwright>=1.40.0
+pyyaml>=6.0
+httpx>=0.25.0
+PyQt6>=6.5.0,<7.0.0

@@ -1,0 +1,55 @@
+# 敏感信息和凭证
+config.yaml
+data/cookies.json
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+dyrobot_debug.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# Playwright
+playwright/.auth/
+
+# 测试和临时文件
+test_*.py
+verify_*.py
+*.tmp
