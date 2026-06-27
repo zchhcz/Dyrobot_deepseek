@@ -53,3 +53,5 @@ playwright/.auth/
 test_*.py
 verify_*.py
 *.tmp
+
+dyrobot/
