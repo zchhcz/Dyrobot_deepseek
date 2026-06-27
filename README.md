@@ -1,5 +1,18 @@
 # 🤖 dyrobot - 抖音群聊 AI 聊天机器人
 
+本项目目前为**半成品状态**，仍在开发和测试中。
+
+**已知问题：**
+- System命令系统（`<System>:*` 命令）在实际测试中存在稳定性问题
+- 部分功能可能无法正常工作或产生意外行为
+
+**建议：**
+- 请在测试环境中谨慎使用
+- 生产环境使用前请充分测试
+- 遇到问题欢迎提交[Issue](https://github.com/zchhcz/Dyrobot_deepseek/issues)
+
+如果你愿意贡献代码帮助完善项目，欢迎提交 Pull Request！
+
 基于 Playwright 浏览器自动化 + DeepSeek 大语言模型的**抖音网页版群聊 AI 机器人**。支持多角色切换、技能系统、对话上下文管理，提供 CLI 和 PyQt6 GUI 两种运行模式。
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
